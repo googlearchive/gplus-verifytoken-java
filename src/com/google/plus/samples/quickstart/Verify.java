@@ -55,7 +55,7 @@ public class Verify {
   /**
    * Replace this with the client ID you got from the Google APIs console.
    */
-  private static final String CLIENT_ID = "353162464143-jvd99kecdasbtll2jiahmcnle32r9rma.apps.googleusercontent.com";
+  private static final String CLIENT_ID = "YOUR_CLIENT_ID";
   /**
    * Replace this with the client secret you got from the Google APIs console.
    */
