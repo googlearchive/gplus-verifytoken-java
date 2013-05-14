@@ -55,7 +55,7 @@ public class Signin {
   /**
    * Replace this with the client ID you got from the Google APIs console.
    */
-  private static final String CLIENT_ID = "YOUR_CLIENT_ID";
+  private static final String CLIENT_ID = "353162464143-jvd99kecdasbtll2jiahmcnle32r9rma.apps.googleusercontent.com";
   /**
    * Replace this with the client secret you got from the Google APIs console.
    */
@@ -128,7 +128,8 @@ public class Signin {
             idStatus.setMessage("Invalid ID Token.");
           } else {
             idStatus.setValid(true);
-            idStatus.setId(jwt.getUserId());
+            String gplusId = jwt.getUserId();
+            idStatus.setId(gplusId);
             idStatus.setMessage("ID Token is valid.");
           }
         } else {
