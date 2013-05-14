@@ -128,7 +128,7 @@ public class Signin {
             idStatus.setMessage("Invalid ID Token.");
           } else {
             idStatus.setValid(true);
-            String gplusId = jwt.getUserId();
+            String gplusId = (String)jwt.get("sub");
             idStatus.setId(gplusId);
             idStatus.setMessage("ID Token is valid.");
           }
