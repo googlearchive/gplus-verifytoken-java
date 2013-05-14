@@ -51,7 +51,7 @@ import java.util.Scanner;
  *
  * @author cartland@google.com (Chris Cartland)
  */
-public class Signin {
+public class Verify {
   /**
    * Replace this with the client ID you got from the Google APIs console.
    */
