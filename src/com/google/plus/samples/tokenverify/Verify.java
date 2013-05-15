@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.plus.samples.quickstart;
+package com.google.plus.samples.tokenverify;
 
 import static spark.Spark.get;
 import static spark.Spark.post;
@@ -97,8 +97,8 @@ public class Verify {
               .replaceAll("[{]{2}\\s*APPLICATION_NAME\\s*[}]{2}",
                   APPLICATION_NAME);
         } catch (FileNotFoundException e) {
-          // When running the quickstart, there was some path issue in finding
-          // index.html.  Double check the quickstart guide.
+          // When running the sample, there was some path issue in finding
+          // index.html.  Double check the guide.
           e.printStackTrace();
           return e.toString();
         }
