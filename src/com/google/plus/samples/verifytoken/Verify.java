@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.plus.samples.tokenverify;
+package com.google.plus.samples.verifytoken;
 
 import static spark.Spark.get;
 import static spark.Spark.post;
