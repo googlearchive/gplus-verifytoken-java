@@ -1,4 +1,4 @@
-package com.google.plus.samples.quickstart;
+package com.google.plus.samples.verifytoken;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
