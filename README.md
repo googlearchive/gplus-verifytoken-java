@@ -1,4 +1,4 @@
-# Verifying Google+ Tokens in Ruby
+# Verifying Google+ Tokens in Java
 
 This sample demonstrates how to verify that the ID tokens and access tokens that you receive on your server are valid. This process is important to perform when your app must send tokens to your server but  is unable to use the one-time-code flow for securely getting tokens for your server.
 
