@@ -57,10 +57,6 @@ public class Verify {
    */
   private static final String CLIENT_ID = "YOUR_CLIENT_ID";
   /**
-   * Replace this with the client secret you got from the Google APIs console.
-   */
-  private static final String CLIENT_SECRET = "YOUR_CLIENT_SECRET";
-  /**
    * Optionally replace this with your application's name.
    */
   private static final String APPLICATION_NAME = "Google+ Java Token Verification";
@@ -145,12 +141,7 @@ public class Verify {
                 TRANSPORT, JSON_FACTORY, credential).build();
             Tokeninfo tokenInfo = oauth2.tokeninfo()
                 .setAccessToken(accessToken).execute();
-            if (tokenInfo.containsKey("error")) {
-              // This is not a valid token.
-              accessStatus.setValid(false);
-              accessStatus.setId("");
-              accessStatus.setMessage("Invalid Access Token.");
-            } else if (!tokenInfo.getIssuedTo().equals(CLIENT_ID)) {
+            if (!tokenInfo.getIssuedTo().equals(CLIENT_ID)) {
               // This is not meant for this app. It is VERY important to check
               // the client ID in order to prevent man-in-the-middle attacks.
               accessStatus.setValid(false);
