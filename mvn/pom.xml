@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -41,15 +41,15 @@
 			<version>1.4.1-beta</version>
 		</dependency>
 		<dependency>
-		      <groupId>spark</groupId>
-		      <artifactId>spark</artifactId>
-		      <version>0.9.9.3-SNAPSHOT</version>
+			<groupId>spark</groupId>
+			<artifactId>spark</artifactId>
+			<version>0.9.9.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-plus</artifactId>
 			<version>v1-rev217-1.20.0</version>
-		</dependency>		
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
