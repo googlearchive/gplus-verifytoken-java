@@ -2,8 +2,7 @@
 
 Prepare
 -------
-Edit `src/com/google/plus/samples/verifytoken/Verify.java`, and replace `YOUR_CLIENT_ID`
-   with your own value
+Edit `src/com/google/plus/samples/verifytoken/Verify.java`, and replace `YOUR_CLIENT_ID` and `YOUR_CLIENT_SECRET` with your own values
 
 Build
 -----
